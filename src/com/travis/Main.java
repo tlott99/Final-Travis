@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
     try {
-        /*Stack<Integer> stack1 = new Stack<>();
+        Stack<Integer> stack1 = new Stack<>();
         Q1.push(stack1);
         Q1.reverse(stack1);
         Stack<Integer> stack2 = new Stack<>();
@@ -18,7 +18,7 @@ public class Main {
         Q4.reverseQueue(queue4);
         Queue<Integer> queue5 = new LinkedList<>();
         Q5.addQueue(queue5);
-        Q5.swapFrontBack(queue5);*/
+        Q5.swapFrontBack(queue5);
         Q6.combineAlphaAndOmega();
 
     }

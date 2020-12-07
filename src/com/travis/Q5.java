@@ -2,14 +2,13 @@ package com.travis;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 public class Q5 {
     static void addQueue(Queue<Integer> queue){
         for(int i = 0; i < 15; i++){
             queue.add(i);
         }
-        System.out.println(queue);
+        System.out.println("Q5 queue " + queue);
     }
     static void swapFrontBack(Queue<Integer> queue){
         Queue<Integer> swapsy = new LinkedList<>();
@@ -23,7 +22,7 @@ public class Q5 {
             int x = swapsy.remove();
             queue.add(x);
         }
-        System.out.println(queue);
+        System.out.println("Q5 queue with front half and back half switched " + queue);
     }
 
 }

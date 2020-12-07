@@ -8,11 +8,11 @@ public class Q2 {
         for (int i = 4; i < 15; i++) {
             stack.push(i);
         }
-        System.out.println(stack);
+        System.out.println("Q2 stack " + stack);
     }
     static void removeMid(Stack<Integer> stack){
         int x = stack.size();
         stack.remove(x/2);
-        System.out.println(stack);
+        System.out.println("Q2 stack with middle removed " + stack);
     }
 }

@@ -7,7 +7,7 @@ public class Q1{
         for (int i = 0; i < 10; i++) {
             stack.push(i);
         }
-        System.out.println(stack);
+        System.out.println("Q1 stack " + stack);
     }
 
     static void reverse(Stack<Integer> stack){
@@ -16,7 +16,7 @@ public class Q1{
             Integer y = stack.pop();
             stack1.push(y);
         }
-        System.out.println(stack1);
+        System.out.println("Q1 reverse stack " + stack1);
     }
 
 }

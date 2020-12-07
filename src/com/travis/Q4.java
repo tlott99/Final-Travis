@@ -8,7 +8,7 @@ public class Q4 {
         for(int i = 0; i < 5; i++){
             queue.add(i);
         }
-        System.out.println(queue);
+        System.out.println("Q4 queue " + queue);
     }
     static void reverseQueue(Queue<Integer> queue){
         Stack<Integer> stack = new Stack<Integer>();
@@ -21,6 +21,6 @@ public class Q4 {
            int x = stack.pop();
            queue.add(x);
         }
-        System.out.println(queue);
+        System.out.println("Q4 queue reversed " + queue);
     }
 }
