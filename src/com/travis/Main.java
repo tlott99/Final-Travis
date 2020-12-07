@@ -13,6 +13,9 @@ public class Main {
         Stack<Integer> stack2 = new Stack<>();
         Q2.push(stack2);
         Q2.removeMid(stack2);
+        Q3.createMultiArray();
+        Q3.passArrayIntoMethod();
+        Q3.cloneArray();
         Queue<Integer> queue4 = new LinkedList<>();
         Q4.addQueue(queue4);
         Q4.reverseQueue(queue4);
