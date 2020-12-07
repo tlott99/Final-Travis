@@ -12,7 +12,7 @@ public class Q5 {
         System.out.println(queue);
     }
     static void swapFrontBack(Queue<Integer> queue){
-        Queue<Integer> swapsy = new LinkedList<Integer>();
+        Queue<Integer> swapsy = new LinkedList<>();
         int half = queue.size()/2;
         for (int i = 0; i < half; i ++){
             int x = queue.peek();
